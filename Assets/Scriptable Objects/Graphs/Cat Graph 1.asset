@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ec74728078c5d4480ef6643135e5cd, type: 3}
+  m_Name: Cat Graph 1
+  m_EditorClassIdentifier: 
+  _currentID: 29
+  Actions:
+  - _action: {fileID: 11400000, guid: f53e4997684ed0548bfe78240a3c511f, type: 2}
+    _id: 0
+    Nodes:
+    - _mood: {fileID: 11400000, guid: 728dda9646c13b24f98828049cbeb18b, type: 2}
+      _action: {fileID: 11400000, guid: f53e4997684ed0548bfe78240a3c511f, type: 2}
+      _id: 4
+      _transition:
+        id: 0
+      Size:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 150
+        height: 100
+      Text: "\u0441\u0438\u0434\u0438\u0442 \u043D\u0430 \u043C\u0435\u0441\u0442\u0435"
+      MethodName: Empty
+    - _mood: {fileID: 11400000, guid: 09d95b980ac472247a25ff01297bc6d0, type: 2}
+      _action: {fileID: 11400000, guid: f53e4997684ed0548bfe78240a3c511f, type: 2}
+      _id: 8
+      _transition:
+        id: 1
+      Size:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 150
+        height: 100
+      Text: "\u043C\u0435\u0434\u043B\u0435\u043D\u043D\u043E \u0431\u0435\u0433\u0430\u0435\u0442
+        \u0437\u0430 \u043C\u044F\u0447\u0438\u043A\u043E\u043C"
+      MethodName: RunAround
+    - _mood: {fileID: 11400000, guid: df615c9845c522f4e9ca329c92ec7f1a, type: 2}
+      _action: {fileID: 11400000, guid: f53e4997684ed0548bfe78240a3c511f, type: 2}
+      _id: 12
+      _transition:
+        id: 0
+      Size:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 150
+        height: 100
+      Text: "\u043D\u043E\u0441\u0438\u0442\u0441\u044F, \u043A\u0430\u043A \u0443\u0433\u043E\u0440\u0435\u043B\u0430\u044F"
+      MethodName: RunAround
+  - _action: {fileID: 11400000, guid: 14f9597a9b6ca854696b41afeac74f7d, type: 2}
+    _id: 1
+    Nodes:
+    - _mood: {fileID: 11400000, guid: 728dda9646c13b24f98828049cbeb18b, type: 2}
+      _action: {fileID: 11400000, guid: 14f9597a9b6ca854696b41afeac74f7d, type: 2}
+      _id: 5
+      _transition:
+        id: 2
+      Size:
+        serializedVersion: 2
+        x: 200
+        y: 350
+        width: 150
+        height: 100
+      Text: "\u0432\u0441\u0435 \u0441\u044A\u0435\u0434\u0430\u0435\u0442"
+      MethodName: Eat
+    - _mood: {fileID: 11400000, guid: 09d95b980ac472247a25ff01297bc6d0, type: 2}
+      _action: {fileID: 11400000, guid: 14f9597a9b6ca854696b41afeac74f7d, type: 2}
+      _id: 9
+      _transition:
+        id: 3
+      Size:
+        serializedVersion: 2
+        x: 400
+        y: 350
+        width: 150
+        height: 100
+      Text: "\u0431\u044B\u0441\u0442\u0440\u043E \u0432\u0441\u0435 \u0441\u044A\u0435\u0434\u0430\u0435\u0442"
+      MethodName: Eat
+    - _mood: {fileID: 11400000, guid: df615c9845c522f4e9ca329c92ec7f1a, type: 2}
+      _action: {fileID: 11400000, guid: 14f9597a9b6ca854696b41afeac74f7d, type: 2}
+      _id: 13
+      _transition:
+        id: 0
+      Size:
+        serializedVersion: 2
+        x: 600
+        y: 350
+        width: 150
+        height: 100
+      Text: "\u0431\u044B\u0441\u0442\u0440\u043E \u0432\u0441\u0435 \u0441\u044A\u0435\u0434\u0430\u0435\u0442"
+      MethodName: Eat
+  - _action: {fileID: 11400000, guid: f5ce811de74915b448b46a824c54a851, type: 2}
+    _id: 2
+    Nodes:
+    - _mood: {fileID: 11400000, guid: 728dda9646c13b24f98828049cbeb18b, type: 2}
+      _action: {fileID: 11400000, guid: f5ce811de74915b448b46a824c54a851, type: 2}
+      _id: 6
+      _transition:
+        id: 0
+      Size:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 150
+        height: 100
+      Text: "\u0446\u0430\u0440\u0430\u043F\u0430\u0435\u0442"
+      MethodName: Jump
+    - _mood: {fileID: 11400000, guid: 09d95b980ac472247a25ff01297bc6d0, type: 2}
+      _action: {fileID: 11400000, guid: f5ce811de74915b448b46a824c54a851, type: 2}
+      _id: 10
+      _transition:
+        id: 4
+      Size:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 150
+        height: 100
+      Text: "\u043C\u0443\u0440\u043B\u044B\u0447\u0435\u0442"
+      MethodName: Sound
+    - _mood: {fileID: 11400000, guid: df615c9845c522f4e9ca329c92ec7f1a, type: 2}
+      _action: {fileID: 11400000, guid: f5ce811de74915b448b46a824c54a851, type: 2}
+      _id: 14
+      _transition:
+        id: 0
+      Size:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 150
+        height: 100
+      Text: "\u043C\u0443\u0440\u043B\u044B\u0447\u0435\u0442 \u0438 \u0432\u0438\u043B\u044F\u0435\u0442
+        \u0445\u0432\u043E\u0441\u0442\u043E\u043C"
+      MethodName: Sound
+  Moods:
+  - _mood: {fileID: 11400000, guid: 728dda9646c13b24f98828049cbeb18b, type: 2}
+    _id: 3
+  - _mood: {fileID: 11400000, guid: 09d95b980ac472247a25ff01297bc6d0, type: 2}
+    _id: 7
+  - _mood: {fileID: 11400000, guid: df615c9845c522f4e9ca329c92ec7f1a, type: 2}
+    _id: 11
+  ScrollPosition: {x: 0, y: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }
+    00000001:
+      type: {class: CatGraph/Node, ns: CatImitation, asm: Assembly-CSharp}
+      data:
+        _mood: {fileID: 11400000, guid: df615c9845c522f4e9ca329c92ec7f1a, type: 2}
+        _action: {fileID: 11400000, guid: f53e4997684ed0548bfe78240a3c511f, type: 2}
+        _id: 12
+        _transition:
+          id: 0
+        Size:
+          serializedVersion: 2
+          x: 600
+          y: 200
+          width: 150
+          height: 100
+        Text: 
+        MethodName: 
+    00000002:
+      type: {class: CatGraph/Node, ns: CatImitation, asm: Assembly-CSharp}
+      data:
+        _mood: {fileID: 11400000, guid: 09d95b980ac472247a25ff01297bc6d0, type: 2}
+        _action: {fileID: 11400000, guid: 14f9597a9b6ca854696b41afeac74f7d, type: 2}
+        _id: 9
+        _transition:
+          id: 3
+        Size:
+          serializedVersion: 2
+          x: 400
+          y: 350
+          width: 150
+          height: 100
+        Text: 
+        MethodName: 
+    00000003:
+      type: {class: CatGraph/Node, ns: CatImitation, asm: Assembly-CSharp}
+      data:
+        _mood: {fileID: 11400000, guid: df615c9845c522f4e9ca329c92ec7f1a, type: 2}
+        _action: {fileID: 11400000, guid: 14f9597a9b6ca854696b41afeac74f7d, type: 2}
+        _id: 13
+        _transition:
+          id: 0
+        Size:
+          serializedVersion: 2
+          x: 600
+          y: 350
+          width: 150
+          height: 100
+        Text: 
+        MethodName: 
+    00000004:
+      type: {class: CatGraph/Node, ns: CatImitation, asm: Assembly-CSharp}
+      data:
+        _mood: {fileID: 11400000, guid: df615c9845c522f4e9ca329c92ec7f1a, type: 2}
+        _action: {fileID: 11400000, guid: f5ce811de74915b448b46a824c54a851, type: 2}
+        _id: 14
+        _transition:
+          id: 0
+        Size:
+          serializedVersion: 2
+          x: 600
+          y: 500
+          width: 150
+          height: 100
+        Text: 
+        MethodName: 
